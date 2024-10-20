@@ -1,0 +1,7 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import other styles */
+@import "~antd/dist/antd.css"; /* or use other CSS files */
