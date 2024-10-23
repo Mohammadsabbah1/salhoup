@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { SvgIcon } from "../SvgIcon";
 import { ScrollUpContainer } from "./styles";
+import icon from "../../assets/images/noun-scroll-to-top-4595406.svg";
 
 const ScrollToTop = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -33,7 +34,7 @@ const ScrollToTop = () => {
 
   return (
     <ScrollUpContainer onClick={scrollUp} show={showScroll}>
-      <SvgIcon src="scroll-top.svg" width="20px" height="20px" />
+      <img src={icon} width="20px" height="20px" />
     </ScrollUpContainer>
   );
 };

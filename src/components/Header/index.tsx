@@ -3,8 +3,8 @@ import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
 import logo from "../../assets/images/459413633_1022437936559467_5852599836659945321_n-removebg-preview.png"
-import { SvgIcon } from "../../common/SvgIcon";
 import { Button } from "../../common/Button";
+
 import {
   HeaderSection,
   LogoContainer,
@@ -17,12 +17,6 @@ import {
   Span,
 } from "./styles";
 import { useHistory } from "react-router-dom"; // Import useHistory hook for v5
-
-
-  // Initialize the useHistory hook
-
-  
-
 const Header = ({ t }: { t: TFunction }) => {
   const [visible, setVisibility] = useState(false);
   const history = useHistory(); 

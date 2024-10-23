@@ -103,16 +103,14 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </LogoContainer>
             </NavLink>
-            {/* <FooterContainer>
+            <FooterContainer>
            
-                <img
-                  height="36"
-                  style={{ border: 0, height: 36 }}
-                  src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
-                  alt="Buy Me a Coffee at ko-fi.com"
-                />
+             
+              <a href="https://linktr.ee/Mohammad_Sabbah7">
+                devloped by Mohammad Sabbah
               </a>
-            </FooterContainer> */}
+             
+            </FooterContainer>
           </Row>
         </Container>
       </Extra>

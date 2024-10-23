@@ -13,7 +13,7 @@ const Router = () => {
       <Styles />
       
       {/* Conditionally render Header and Footer */}
-      {location.pathname !== "/login" && location.pathname !== "/signup" && <Header />}
+      {location.pathname !== "/login" && location.pathname !== "/signup" && location.pathname !== "/dashboard"  && <Header />}
 
       <Switch>
         {routes.map((routeItem) => {
@@ -28,7 +28,7 @@ const Router = () => {
         })}
       </Switch>
 
-      {location.pathname !== "/login" && location.pathname !== "/signup" && <Footer />}
+      {location.pathname !== "/login" && location.pathname !== "/signup" && location.pathname !== "/dashboard" && <Footer />}
       </Suspense>
   );
 };
